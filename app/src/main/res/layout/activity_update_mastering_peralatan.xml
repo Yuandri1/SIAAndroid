@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mastering_Peralatan.Update_Mastering_Peralatan">
+
+    <TextView
+        android:id="@+id/judul_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="UPDATE PERALATAN"
+        android:textColor="#D32F2F"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sub_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/judul_txt"
+        android:text="CRUD MASTER PERALATAN"/>
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_kode_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Kode Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub_judul"/>
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_nama_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pengadaan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_kode_peralatan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_desc_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_nama_peralatan"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_lokasi_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Lokasi Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_desc_peralatan"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_grup_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Grup Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_lokasi_peralatan"/>
+
+
+
+
+    <Button
+        android:id="@+id/btn_tambah_update_peralatan"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="UPDATE Peralatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/update_grup_peralatan"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uasmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UASMOBILE"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".BB.BB_PERLENGKAPAN"
+            android:exported="true" />
+        <activity
+            android:name=".BB.BB_PERALATAN"
+            android:exported="true" />
+        <activity
+            android:name=".BB.BB_MODAL"
+            android:exported="true" />
+        <activity
+            android:name=".BB.BB_HUTANG"
+            android:exported="true" />
+        <activity
+            android:name=".BB.BB_KAS"
+            android:exported="true" />
+        <activity
+            android:name=".BB.Buku_Besar_Kas"
+            android:exported="true" />
+        <activity
+            android:name=".Laporan.Neraca_Saldo"
+            android:exported="true" />
+        <activity
+            android:name=".Laporan.Buku_Besar"
+            android:exported="true" />
+        <activity
+            android:name=".Laporan.Jurnal_Umum"
+            android:exported="true" />
+        <activity
+            android:name=".Laporan.Laporan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering.Update_Mastering_Perlengkapan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering.Master_Mastering_Perlengkapan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering.Detail_Master_Perlengkapan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering_Peralatan.Update_Mastering_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering_Peralatan.Master_Mastering_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering_Peralatan.Detail_Master_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering.Mastering_Perlengkapan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering_Peralatan.Mastering_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Mastering.Mastering"
+            android:exported="true" />
+        <activity
+            android:name=".Perlengkapan.Update_Perlengkapan"
+            android:exported="true" />
+        <activity
+            android:name=".Perlengkapan.Detail_Perlengkapan"
+            android:exported="true" />
+        <activity
+            android:name=".Peralatan.Update_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Peralatan.Detail_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Perlengkapan.Master_Perlengkapan"
+            android:exported="true"
+            android:label="@string/title_activity_master_perlengkapan"
+            android:theme="@style/Theme.UASMOBILE.NoActionBar" />
+        <activity
+            android:name=".Peralatan.Master_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Peralatan.Akun_Peralatan"
+            android:exported="true" />
+        <activity
+            android:name=".Perlengkapan.Akun_Perlengkapan"
+            android:exported="true" />
+        <activity
+            android:name=".Pengadaan"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

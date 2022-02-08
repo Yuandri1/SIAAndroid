@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/kode_nsperalatan"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:text="Kode"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/desc_nsperalatan"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text=" Deskripsi"
+        app:layout_constraintBottom_toBottomOf="@+id/kode_nsperalatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/kode_nsperalatan"
+        app:layout_constraintTop_toTopOf="@+id/kode_nsperalatan"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nominal_debet_nsperalatan"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="0dp"
+        android:text="Debet"
+        app:layout_constraintBottom_toBottomOf="@+id/desc_nsperalatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/desc_nsperalatan"
+        app:layout_constraintTop_toTopOf="@+id/desc_nsperalatan"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nominal_kredit_nsperalatan"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:paddingEnd="0dp"
+        android:text="Kredit"
+        app:layout_constraintBottom_toBottomOf="@+id/nominal_debet_nsperalatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/nominal_debet_nsperalatan"
+        app:layout_constraintTop_toTopOf="@+id/nominal_debet_nsperalatan"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

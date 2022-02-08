@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/drawable-v24/border_logo.xml" value="0.290625" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_akun_peralatan.xml" value="0.49480968858131485" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_akun_perlengkapan.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_bb_hutang.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_bb_kas.xml" value="0.176" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_bb_modal.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_bb_peralatan.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_bb_perlengkapan.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_buku_besar.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_buku_besar_kas.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_buku_besar_kas2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_detail_master_peralatan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_detail_master_perlengkapan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_detail_peralatan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_detail_perlengkapan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_jurnal_umum.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_laporan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_master_mastering_peralatan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_master_mastering_perlengkapan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_master_peralatan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_master_perlengkapan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_mastering.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_mastering_peralatan.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_mastering_perlengkapan.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_neraca_saldo.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_pengadaan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_update_mastering_peralatan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_update_mastering_perlengkapan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_update_peralatan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/activity_update_perlengkapan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/content_master_perlengkapan2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_a.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_bbhutang.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_bbkas.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_bbkreditkas.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_bbmodal.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_bbperalatan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_bbperlengkapan.xml" value="0.2" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_bbtotal.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_buku_besar.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_jurnal_umum.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_master_peralatan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_master_perlengkapan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_mastering.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_nshutang.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_nskas.xml" value="0.6" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_nsmodal.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_nsperalatan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_nsperlengkapan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_nspiutang.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_nstotal.xml" value="0.264" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_pengadaan.xml" value="0.4" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_peralatan.xml" value="0.2" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/layout/list_perlengkapan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Tugas Kuliah/S5/UASMOBILE/app/src/main/res/xml/network_security_config.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

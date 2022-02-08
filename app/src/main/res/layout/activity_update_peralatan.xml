@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Peralatan.Update_Peralatan">
+
+    <TextView
+        android:id="@+id/judul_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="UPDATE PERALATAN"
+        android:textColor="#D32F2F"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sub_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/judul_txt"
+        android:text="Edit Peralatan"/>
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_kode_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Kode Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub_judul"/>
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_tipe_pengadaan_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Tipe Pengadaan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_kode_peralatan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_nama_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_tipe_pengadaan_peralatan"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_qty_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Quantity Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_nama_peralatan"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_harga_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Harga Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_qty_peralatan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_desc_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Desc Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_harga_peralatan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_nam_debet_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Akun Debet Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_desc_peralatan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_nom_debet_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Debet Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_nam_debet_peralatan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_nam_kredit_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Akun Kredit Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_nom_debet_peralatan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/udt_nom_kredit_peralatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Kredit Peralatan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/udt_nam_kredit_peralatan"/>
+
+
+    <Button
+        android:id="@+id/btn_tambah_udt_peralatan"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="TAMBAH Peralatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/udt_nom_kredit_peralatan"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

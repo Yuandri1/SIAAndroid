@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mastering.Update_Mastering_Perlengkapan">
+
+    <TextView
+        android:id="@+id/judul_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="UPDATE PERLENGKAPAN"
+        android:textColor="#D32F2F"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sub_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/judul_txt"
+        android:text="CRUD MASTER PERLENGKAPAN"/>
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_kode_perlengkapan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Kode Perlengkapan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub_judul"/>
+
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_nama_perlengkapan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Perlengkapan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_kode_perlengkapan"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/update_desc_perlengkapan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi Perlengkapan"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_nama_perlengkapan"/>
+
+
+
+    <Button
+        android:id="@+id/btn_tambah_update_perlengkapan"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="UPDATE Perlengkapan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/update_desc_perlengkapan"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
